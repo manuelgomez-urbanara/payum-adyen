@@ -26,6 +26,7 @@
     "require": {
         "php": ">=7.0",
         "larium/http-client": "dev-master",
+        "guzzlehttp/guzzle": "dev-master",
         "payum/core": "^1.3"
     },
     "require-dev": {
