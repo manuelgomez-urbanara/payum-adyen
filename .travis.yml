@@ -12,9 +12,6 @@ sudo: false
 
 matrix:
   fast_finish: true
-  include: ~
-  allow_failures:
-    - php: hhvm
 
 before_script:
   - curl -sS https://getcomposer.org/installer | php
@@ -23,4 +20,4 @@ before_script:
 
 notifications:
   email:
-    - develop@netteam.pl
+    - manuel.gomez@urbanara.com
